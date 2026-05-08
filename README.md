@@ -1,34 +1,21 @@
 # 📡 Wifi SpyE v2.0
-**Advanced Wireless & Network Auditing Suite**
+**The Ultimate Wireless & Network Auditing Suite**
 
-Wifi SpyE adalah framework sederhana berbasis Python yang menggabungkan berbagai tools keamanan jaringan populer ke dalam satu antarmuka yang mudah digunakan. Dibuat untuk mempermudah auditor keamanan dalam melakukan pengujian penetrasi jaringan.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Xubuntu%20|%20Linux%20|%20Termux-green.svg)
+![Branding](https://img.shields.io/badge/Branding-123tool%20%26%20SPY--E-red.svg)
 
----
-
-## 🛠️ Fitur Utama
-- **Wireless Attack**: Monitor mode toggle, Handshake capture, WPA/WPA2 Cracking.
-- **WPS Auditing**: Reaver & PixieWPS integration.
-- **Network Scanning**: Nmap discovery & OS Fingerprinting.
-- **Exploitation**: Metasploit integration & Hydra Brute Force.
-- **Web Security**: Nikto Scan, SQLMap, & Gobuster.
-- **Phishing**: Wifiphisher automated setup.
+**Wifi SpyE** adalah alat audit keamanan jaringan yang menggabungkan berbagai tools eksploitasi dan pengintaian dalam satu interface berbasis teks. Dirancang khusus untuk **Indonesia OSINT** dan auditor keamanan.
 
 ---
 
-## 💻 Kompatibilitas
-Tool ini dirancang untuk berjalan di:
-- **Linux** (Kali Linux, Parrot OS, Ubuntu, Xubuntu)
-- **Termux** (Dengan akses root untuk fungsi wireless)
-- **CMD/PowerShell** (Hanya fungsi tertentu yang tidak membutuhkan driver khusus Linux)
+## 🚀 Cara Instalasi (Satu Klik)
 
----
+### Di Linux (Xubuntu/Kali/Ubuntu/Parrot)
+Cukup jalankan script installer untuk menyiapkan semua depedensi secara otomatis:
 
-## 🚀 Panduan Instalasi
-
-### 1. Di Linux / Xubuntu
-Buka terminal dan jalankan:
 ```bash
 git clone [https://github.com/USERNAME-KAMU/wifi-spye.git](https://github.com/USERNAME-KAMU/wifi-spye.git)
 cd wifi-spye
-pip install colorama
-sudo python3 wifi_spye.py
+chmod +x install.sh
+sudo ./install.sh
