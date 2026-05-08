@@ -1,5 +1,4 @@
 ## 📡 Wifi SpyE Hacking
-**Wireless & Wifi Network Tool**
 
 Alat audit keamanan jaringan yang menggabungkan berbagai tools eksploitasi dan pengintaian dalam satu interface berbasis teks. Dirancang khusus untuk **Indonesia OSINT** dan auditor keamanan.
 
